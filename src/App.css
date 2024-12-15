@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000616;
+  overflow-x: hidden;
+}
+nav {
+  background-color: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.company {
+  height: 55px;
+  display: flex;
+  margin: 10px;
+  margin-left: 50px;
+  transform: translateY(8px);
+}
+nav button {
+  padding: 18px 23px;
+  line-height: 0.5;
+  background: none;
+  color: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 13pt;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  margin: 0px 1px;
+}
+#subscribe {
+  background-color: none;
+  border: 2px solid #cdf359;
+  color: white;
+}
+nav button:hover {
+  background: #bdfa04;
+  color: #000;
+  font-weight: bold;
+  transform: translateY(-3px);
+  /* transition: ease; */
+}
+#subscribe:hover {
+  background-color: #bdfa04;
+  color: black;
+  font-weight: bold;
+  /* scale: 1.025; */
+  transform: translateY(-3.5px);
+}
+#allbtn {
+  margin-right: 20px;
+}
+#hero {
+  color: white;
+  /* width: 100%; */
+  padding: 25px;
+  display: flex;
+}
+section h1 {
+  font-size: 40pt;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+}
+section span {
+  color: #bdfa04;
+}
+section p {
+  font-size: 12pt;
+  font-family: "Poppins", sans-serif;
+}
+section img {
+  display: flex;
+  justify-content: center;
+}
+
+section button {
+  padding: 18px 23px;
+  line-height: 0.5;
+  background: none;
+  color: white;
+  border: 3px solid #bfff00;
+  font-family: "Poppins", sans-serif;
+  font-size: 13pt;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s ease;
+  margin: 0px 1px;
+  margin: 20px 10px;
+}
+section button:hover {
+  background: #d1f368;
+  color: black;
+  font-weight: bold;
+  scale: 1.05;
+}
+#hero_content {
+  /* width:  */
+  padding: 25px;
+}
+#hero_img {
+  width: 60%;
+  padding: 25px;
+  background-size: cover;
+  /* background-image: url(/src/assets/images/hero_image.png); */
+  border-radius: 15px;
+}
+hr {
+  width: 95%;
+}
+#auction h1 {
+  line-height: 125%;
+  color: white;
+  padding: 25px;
+}
+#samlpes {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.sample {
+  border: 2px solid white;
+  height: 350px;
+  min-width: 300px;
+  width: 300px;
+  border-radius: 15px;
+  margin: 15px;
+  transition: all 0.2s ease;
+  padding: 3px;
+  cursor: normal;
+  box-shadow: 0 0 15px white;
+}
+.product {
+  height: 350px;
+  cursor: normal;
+  width: 300px;
+  border-radius: 10px;
+  background-position: center 80%;
+  background-size: cover;
+}
+
+ #p1 {
+  background-image: url(./assets/images/artwork/img1.jpg);
+}
+#p2 {
+  background-image: url(./assets/images/artwork/img2.jpg);
+}
+#p3 {
+  background-image: url(./assets/images/artwork/img3.jpg);
+}
+#p4 {
+  background-image: url(./assets/images/artwork/img4.jpg);
+  background-position: center 35%;
+}
+#p5 {
+  background-image: url(./assets/images/artwork/img5.jpg);
+}
+#p6 {
+  background-image: url(./assets/images/artwork/img6.jpg);
+}
+#p7 {
+  background-image: url(./assets/images/artwork/img7.jpg);
+}
+#p8 {
+  background-image: url(./assets/images/artwork/img8.jpg);
+}
+#mp1 {
+  background-image: url(./assets/images/artwork/img9.jpg);
+}
+#mp2 {
+  background-image: url(./assets/images/artwork/img10.jpg);
+}
+#mp3 {
+  background-image: url(./assets/images/artwork/img11.jpg);
+}
+#mp4 {
+  background-image: url(./assets/images/artwork/img12.jpg);
+}
+#mp5 {
+  background-image: url(./assets/images/artwork/img13.jpg);
+}
+#mp6 {
+  background-image: url(./assets/images/artwork/img14.jpg);
+}
+#mp7 {
+  background-image: url(./assets/images/artwork/img15.jpg);
+}
+#mp8 {
+  background-image: url(./assets/images/artwork/img16.jpg);
+}
+#mp9 {
+  background-image: url(./assets/images/artwork/img17.jpg);
+}
+#mp10 {
+  background-image: url(./assets/images/artwork/img18.jpg);
+} 
+
+.pf {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: relative;
+  text-align: center;
+  top: 289px;
+  font-size: 13pt;
+  transition: all 0.5s ease;
+  color: white;
+  cursor: normal;
+  padding: 6px;
+  border-radius: 9px;
+  font-family: "Poppins", sans-serif;
+}
+.aao {
+  transition: 0.25s ease;
+  font-weight: 600;
+  cursor: normal;
+  color: #bdfa04;
+  font-size: 13pt;
+}
+.chupao {
+  transition: 0.2s ease;
+  cursor: normal;
+}
+.sample:hover {
+  transform: translateY(-6px);
+}
+.sample:hover .pf {
+  height: 80px;
+  top: 259px;
+}
+.sample:hover .chupao {
+  opacity: 0;
+  transform: translateY(-5px);
+}
+.sample:hover .aao {
+  transform: translateY(-22px);
+  font-size: 14pt;
+}
+.sample:hover .buy {
+  padding: 8px 40px;
+  display: inline-block;
+  transform: translateY(-35px);
+  opacity: 1;
+  z-index: 4;
+}
+.buy {
+  padding: 8px 40px;
+  display: none;
+  opacity: 0;
+  cursor: pointer;
+  z-index: -100;
+  transform: translateY(-55px);
+}
+
+section {
+  padding: 15px 50px;
+}
+#market {
+  padding: 15px 50px;
+  color: white;
+}
+
+#market_product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ms {
+  border: 2px solid white;
+  height: 350px;
+  width: 275px;
+  border-radius: 15px;
+  margin: 15px;
+  transition: all 0.2s ease;
+  padding: 3px;
+  box-shadow: 0 0 15px white;
+  cursor: normal;
+}
+.mproduct {
+  width: 275px;
+}
+
+.ms:hover {
+  transform: translateY(-6px);
+}
+.sm:hover .pf {
+  height: 80px;
+  top: 259px;
+}
+.ms:hover .chupao {
+  opacity: 0;
+  transform: translateY(-5px);
+}
+.ms:hover .aao {
+  transform: translateY(-22px);
+  font-size: 14pt;
+}
+.ms:hover .buy {
+  padding: 8px 40px;
+  display: inline-block;
+  transform: translateY(-35px);
+  opacity: 1;
+  z-index: 4;
+}
+#market_product .buy {
+  background-color: #bdfa04;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
+#last {
+  background-color: #000;
+  margin: 15px;
+  font-size: 14pt;
+  color: white;
+}
+#mail {
+  width: 400px;
+  height: 40px;
+  background-color: #444;
+  border-radius: 25px;
+  border: 0px;
+  padding: 0 25px;
+}
+#submit {
+  padding: 10px 23px;
+  height: 35px;
+  line-height: 0.5;
+  background: none;
+  color: black;
+  border: 2px solid black;
+  font-family: "Poppins", sans-serif;
+  background-color: #bdfa04;
+  font-size: 13pt;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.1s ease;
+  margin: 0px 1px;
+}
+#submit:hover {
+  background-color: #4dff00;
+
+  scale: 1.03;
+}
+#last {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+}
